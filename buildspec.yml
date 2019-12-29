@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+    - echo Installing NPM ...
+    - printenv
+    - npm install
+  pre_build:
+    commands:
+    - echo Installing Dependencies ...
+      # install dependencies
+  build:
+    commands:
+      # build
+      - echo Building ...
+      - npm run build
+
+  artifacts:
+    files:
+      - build*/**
+    discard-paths: yes
