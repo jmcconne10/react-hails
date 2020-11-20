@@ -10,7 +10,7 @@ function Navbar() {
         <header className="overflow--auto">
             <h1 className="color--skyBlue section__heading--largest">
                 {/* !--Your name goes here --> */}
-                hailingHails
+                hailingHails!
             </h1>
         </header>
         </div>  
